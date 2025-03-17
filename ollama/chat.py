@@ -67,6 +67,11 @@ while True:
     response = ollama.chat(
         model="llama3.2:latest",
         messages=messages,
+        tools=tools,
+        stream=stream,
+        format=format,
+        options=options,
+        keep_alive=keep_alive,
     )
     messages.append({
         "role": "assistant",

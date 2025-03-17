@@ -1,3 +1,5 @@
 lxml_html_clean
 ollama
+psutil
 requests-html
+scapy
